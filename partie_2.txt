@@ -1,0 +1,16 @@
+import hashlib
+
+def find_files(start_path, extension):
+    """Parcourt le système de fichiers pour trouver les fichiers avec l'extension donnée."""
+    matches = []
+    for root, dirs, files in os.walk(start_path):
+        for filename in files:
+            if filename.endswith(extension):
+                matches.append(os.path.join(root, filename))
+    return matches
+
+def calculate_file_hash(filepath):
+    """Calcule le hash SHA-256 du fichier spécifié."""
+    sha256_hash = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        f

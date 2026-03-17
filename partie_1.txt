@@ -1,0 +1,17 @@
+# Description du script :
+#
+# Fonction find_files(start_path, extension):
+#   Parcourt récursivement le système de fichiers à partir du chemin spécifié
+#   pour trouver tous les fichiers avec l'extension donnée.
+#
+# Fonction calculate_file_hash(filepath):
+#   Calcule le hash SHA-256 du fichier spécifié, ce qui peut être utilisé
+#   pour vérifier l'intégrité des fichiers.
+#
+# Fonction main():
+#   Gère les arguments de ligne de commande, recherche les fichiers .pdf
+#   et affiche leur chemin et leur hash.
+
+
+import os
+import sys
