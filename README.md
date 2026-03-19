@@ -64,6 +64,5 @@ Il permet également de mieux comprendre comment certaines techniques peuvent ê
 - Fichiers images contenant les données cachées
 - Fichiers intermédiaires générés
 
----
 
 
